@@ -57,6 +57,26 @@ main {
     }
   }
 }
+footer{
+  border-top: 1px solid lightgray;
+  padding: 32px;
+  display:flex;
+  justify-content: center;
+
+  ul{
+    list-style-type: none;
+    font-size: 12px;
+ 
+    .icons{
+      display: flex;
+      justify-content: center;
+      gap:8px;
+      font-size: 20px;
+      margin-top: 16px;
+      cursor: pointer;
+    }
+  }
+}
 
 
 
