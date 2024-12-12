@@ -7,6 +7,18 @@ $primary-color: white;
   padding: 0;
   box-sizing: border-box;
 }
+nav{
+  border-bottom: 1px solid lightgray;
+  padding: 32px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
+i{
+font-size:24px;
+cursor: pointer;
+}
+}
 
 main {
   display: flex;
